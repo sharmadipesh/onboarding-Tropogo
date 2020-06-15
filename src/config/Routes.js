@@ -1,5 +1,6 @@
 const Routes = {
-    LandingPage :'/',
+    Institute :'/',
+    CourseDetails:'/course'
 }
 
 export {Routes};

@@ -5,13 +5,13 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 
 function App() {
-  return (
-    <div>
-      <Router>
-        <Route path={'/'} component={MainLayout} />                                  
-      </Router>
-    </div>
-  );
+    return (
+        <div>
+            <Router>
+                <Route path={'/'} component={MainLayout} />                                  
+            </Router>
+        </div>
+    );
 }
 
 export default App;
